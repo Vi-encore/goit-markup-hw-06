@@ -1,0 +1,124 @@
+:root {
+  --primary-brand: #4d5ae5; /*focus, active*/
+  --pressed-state: #404bbf; /*hover?*/
+  --dark: #2e2f42; /*shadows, heading, hero bg*/
+  --success: #31d0aa; /*valid, hover on icons*/
+  --main-text-color: #434455; /*headers*/
+  --secondary-text-color: #8e8f99; /*subtle text*/
+  --accent: #e7e9fc; /*bg on cards or border*/
+  --accent-bg-color: #f4f4fd; /*another bg color*/
+  --modal-overlay: #abacb3; /*unused?*/
+  --hero-img--bg: #6d6e7b; /*unused*/
+  --white: #fff;
+  --modal-bg: #fcfcfc; /*unused*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  line-height: 1.5;
+}
+
+main {
+  background-color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo,
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.header-logo span,
+.footer-logo span {
+  color: var(--primary-brand);
+}
+
+.header-logo {
+  color: var(--dark);
+}
+
+.footer-logo {
+  color: var(--accent-bg-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--dark);
+  text-transform: capitalize;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state);
+}
+
+.address-link {
+  color: var(--dark);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed-state);
+}
+
+.hero {
+  background-color: var(--dark);
+}
+
+.hero-header {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-btn {
+  background-color: var(--primary-brand);
+  color: var(--white);
+  font-weight: 500;
+  vertical-align: middle;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+.values-header,
+.team-member-name,
+.portfolio-card-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer-text {
+  color: var(--accent);
+}
+
+.team {
+  background-color: var(--accent-bg-color);
+}
+
+.team-member-card {
+  background-color: var(--white);
+}
+
+.footer {
+  background-color: var(--dark);
+}
