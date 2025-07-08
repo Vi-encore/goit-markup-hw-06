@@ -11,8 +11,6 @@
   --hero-img--bg: #6d6e7b; /*unused*/
   --white: #fff;
   --modal-bg: #fcfcfc; /*unused*/
-
-  --address-color: #434455;
 }
 
 body {
@@ -67,7 +65,7 @@ a {
 }
 
 .address-link {
-  color: var(--address-color);
+  color: var(--main-text-color);
   letter-spacing: 0.02em;
 }
 
