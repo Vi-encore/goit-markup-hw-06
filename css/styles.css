@@ -12,7 +12,7 @@
   --white: #fff;
   --modal-bg: #fcfcfc; /*unused*/
 
-  --address-color: #433355;
+  --address-color: #434455;
 }
 
 body {
@@ -43,10 +43,10 @@ a {
   color: var(--primary-brand);
 }
 
-.header-logo span {
+.header-logo .span {
   color: var(--dark);
 }
-.footer-logo span {
+.footer-logo .span {
   color: var(--accent-bg-color);
 }
 
@@ -86,6 +86,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -104,6 +105,17 @@ a {
   background-color: var(--pressed-state);
 }
 
+.values-header,
+.team-member-name,
+.portfolio-card-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
 .team-header,
 .portfolio-header {
   font-size: 36px;
@@ -111,16 +123,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark);
-}
-
-.values-header,
-.team-member-name,
-.portfolio-card-header {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-transform: capitalize;
-  color: var(--dark);
+  letter-spacing: 0.02em;
 }
 
 .team {
