@@ -45,14 +45,10 @@ img {
   display: block;
 }
 
-.visually-hidden {
-  display: none;
-}
-
 .container {
   max-width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -189,6 +185,10 @@ img {
   gap: 24px;
 }
 
+.values-content {
+  width: calc((100% - 72px) / 4);
+}
+
 .values-header,
 .team-member-name,
 .portfolio-card-header {
@@ -251,7 +251,8 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 24px 0;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-text-content {
