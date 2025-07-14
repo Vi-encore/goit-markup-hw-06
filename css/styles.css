@@ -45,13 +45,13 @@ img {
   display: block;
 }
 
-.hidden {
+.visually-hidden {
   display: none;
 }
 
 .container {
   max-width: 1158px;
-  padding: 120px 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -60,8 +60,7 @@ img {
 }
 
 .header .container {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,16 +69,24 @@ img {
 .nav,
 .address {
   display: flex;
+  align-items: center;
 }
 
-.nav {
-  gap: 78px;
+.header-logo {
+  margin-right: 76px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .nav-container,
 .address-container {
   display: flex;
   gap: 40px;
+}
+
+.nav-link,
+.address-link {
+  padding: 24px 0;
 }
 
 .header-logo,
@@ -129,7 +136,7 @@ img {
 
 .hero {
   background-color: var(--dark);
-  padding: 67px 0;
+  padding: 188px 0;
 }
 
 .hero .container {
@@ -160,7 +167,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: block;
-  /* max-width: 169px; */
+  min-width: 169px;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
@@ -171,11 +178,15 @@ img {
   background-color: var(--pressed-state);
 }
 
+.values {
+  padding: 120px 0;
+}
+
 .values-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 }
 
 .values-header,
@@ -203,16 +214,18 @@ img {
 
 .team {
   background-color: var(--accent-bg-color);
+  padding: 120px 0;
 }
 
 .team-container {
   display: flex;
   justify-content: space-between;
   padding-bottom: 32px;
+  gap: 24px;
 }
 
 .team-member-card {
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   overflow: hidden;
@@ -228,13 +241,17 @@ img {
   padding: 32px 0;
 }
 
+.portfolio {
+  padding: 120px 0;
+}
+
 .portfolio-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 48px 0;
+  gap: 24px 0;
 }
 
 .portfolio-text-content {
@@ -245,13 +262,15 @@ img {
 
 .footer {
   background-color: var(--dark);
+  padding: 100px 0;
 }
 
-.footer-content {
-  max-width: 264px;
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
   color: var(--accent-bg-color);
-  margin-top: 16px;
+  max-width: 264px;
 }
