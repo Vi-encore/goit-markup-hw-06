@@ -21,12 +21,61 @@ body {
   letter-spacing: 0.02em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid var(--accent);
+}
+
+.header .container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav,
+.address {
+  display: flex;
+}
+
+.nav {
+  gap: 3em;
+}
+
+.nav-container,
+.address-container {
+  display: flex;
+  gap: 2em;
 }
 
 .header-logo,
