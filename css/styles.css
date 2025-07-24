@@ -421,7 +421,7 @@ img {
 .footer-content {
   display: flex;
   justify-content: start;
-  align-items: start;
+  align-items: baseline;
   /* gap: 120px; */
 }
 
@@ -440,7 +440,7 @@ img {
 }
 
 .footer-links-text {
-  color: var(--accent-bg-color);
+  color: var(--white);
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -451,3 +451,4 @@ img {
   display: flex;
   gap: 16px;
 }
+
