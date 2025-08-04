@@ -785,3 +785,9 @@ img {
   align-self: center;
   /* margin-top: 24px; */
 }
+/*---media---*/
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: url(../images/hero-bg-2x.jpg);
+  }
+}
