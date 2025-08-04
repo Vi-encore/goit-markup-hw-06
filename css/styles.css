@@ -731,10 +731,10 @@ img {
     flex-wrap: nowrap;
     /* margin: auto;
     */
-    margin-left: 108px;
-    /* padding: 0 156px; */
-    /* justify-content: start;
-    align-items: baseline; */
+    /* margin-left: 108px; */
+    padding: 0 16px;
+    justify-content: center; 
+    align-items: baseline; 
   }
 }
 
