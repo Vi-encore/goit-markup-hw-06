@@ -74,7 +74,7 @@ img {
   .container {
     padding: 0 120px;
   }
-} 
+}
 
 /*---Header & nav---*/
 
@@ -383,8 +383,6 @@ img {
     width: calc((100% - 72px) / 2);
   }
 }
-
-
 
 .values-icons-container {
   display: none;
@@ -710,15 +708,15 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-    .footer-content {
+  .footer-content {
     /* flex-direction: row; */
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     margin: auto;
     /* justify-content: start;
     align-items: baseline; */
   }
 }
- 
+
 .footer-main-info {
   margin: 0;
 }
@@ -801,7 +799,7 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-    .footer-form-container {
+  .footer-form-container {
     margin-left: 80px;
   }
 }
