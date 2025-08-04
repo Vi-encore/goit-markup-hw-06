@@ -378,11 +378,17 @@ img {
   }
 }
 
+
+
 .values-icons-container {
   display: none;
 }
 
 @media screen and (min-width: 1158px) {
+  .values-content {
+    width: calc((100% - 72px) / 4);
+  }
+
   .values-icons-container {
     display: block;
     background-color: var(--accent-bg-color);
@@ -618,7 +624,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .portfolio-card {
-    max-width: auto;
+    max-width: calc((100% - 32px) / 2);
   }
 }
 
