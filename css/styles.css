@@ -68,13 +68,13 @@ img {
   .container {
     width: 768px;
   }
-}
+} */
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    padding: 0 120px;
   }
-} */
+} 
 
 /*---Header & nav---*/
 
@@ -264,6 +264,12 @@ img {
 @media screen and (min-width: 768px) {
   .hero {
     padding: 112px 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    padding: 180px 0;
   }
 }
 
